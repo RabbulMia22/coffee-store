@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Hello World! Coffe Server is running');
-
+  
 });
 
 
